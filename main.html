@@ -12489,7 +12489,31 @@ strong multicollinearity or other numerical problems.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Work-Distribution">Work Distribution<a class="anchor-link" href="#Work-Distribution">¶</a></h3>
+<h3 id="Work-Distribution">Work Distribution<a class="anchor-link" href="#Work-Distribution">¶</a></h3><p><strong>Sylvia Feng</strong></p>
+<ul>
+<li><strong>Data Selection and Milestone 1a:</strong> Selected the CMS Medicare Geographic Variation and ACS 2023 5-Year Estimates datasets, established the county FIPS-based integration approach, and completed the Milestone 1a submission.</li>
+<li><strong>Milestone 1b Proposal:</strong> Wrote the Title &amp; Introduction and Data &amp; Methodology sections.</li>
+<li><strong>Supporting Notebook:</strong> Developed <code>asc_download.ipynb</code> for ACS data acquisition and preparation.</li>
+<li><strong>Project Standup:</strong> Completed the original <code>main.ipynb</code> notebook for the project standup.</li>
+<li><strong>Core Project Development and Analysis:</strong><ul>
+<li>Implemented data preparation and cleaning, including filtering, FIPS standardization, dataset merging, missingness checks, and complete-case selection.</li>
+<li>Investigated excluded counties, beneficiary counts, Connecticut geographic consistency, and Medicare Advantage data availability.</li>
+<li>Conducted exploratory analysis, including descriptive statistics, correlations, and socioeconomic–spending visualizations.</li>
+<li>Analyzed Medicare spending across poverty-rate quartiles.</li>
+<li>Developed three preliminary multiple regression models with progressively added demographic and Medicare Advantage controls.</li>
+<li>Assessed multicollinearity using a predictor correlation matrix and variance inflation factors (VIF).</li>
+<li>Extended the analysis with IQR-based outlier assessment and 95% confidence intervals for Pearson correlations.</li>
+<li>Restructured the original analysis notebook into a comprehensive technical report.</li>
+<li>Wrote the Project Overview, Stakeholders, Objective, Business Questions, and Ethical Principles sections.</li>
+<li>Documented the data overview, preparation, cleaning, exploratory analysis, and visualization results.</li>
+</ul>
+</li>
+<li><strong>Repository Organization and Deliverables:</strong> Organized the repository, exported figures, preserved supporting notebooks, and prepared <code>README.md</code>, <code>requirements.txt</code>, and <code>main.html</code>.</li>
+</ul>
+<p><strong>Denali Wood</strong></p>
+<p><em>To be completed.</em></p>
+<p><strong>Taqi Abusaif</strong></p>
+<p><em>To be completed.</em></p>
 </div>
 </div>
 </div>
@@ -12500,7 +12524,16 @@ strong multicollinearity or other numerical problems.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Environment-Details">Environment Details<a class="anchor-link" href="#Environment-Details">¶</a></h3>
+<h3 id="Environment-Details">Environment Details<a class="anchor-link" href="#Environment-Details">¶</a></h3><p>The analysis is implemented in Python using Jupyter Notebook. The main notebook, main.ipynb, contains the data preparation, exploratory analysis, visualizations, and regression analyses.</p>
+<p>The primary Python libraries used in the project include:</p>
+<ul>
+<li>pandas: Data loading, cleaning, merging, and manipulation.</li>
+<li>NumPy: Numerical computations.</li>
+<li>Matplotlib: Data visualization.</li>
+<li>statsmodels: Statistical modeling and regression analysis.</li>
+</ul>
+<p>The required Python packages are listed in requirements.txt. Instructions for setting up the Python environment, installing dependencies, and executing the notebook are provided in README.md.</p>
+<p>The notebook reads input datasets from the data/ directory and exports figures to the figures/ directory. An HTML version of the report is available as main.html for viewing without executing the notebook.</p>
 </div>
 </div>
 </div>
